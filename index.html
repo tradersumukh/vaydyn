@@ -15,18 +15,40 @@
       height: 100vh;
       margin: 0;
       padding: 2rem;
+      position: relative;
     }
+
     .container {
       max-width: 800px;
       text-align: center;
       font-size: 1.5rem;
       line-height: 1.8;
     }
+
+    .footer {
+      position: absolute;
+      bottom: 10px;
+      right: 20px;
+      font-size: 0.8rem;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        font-size: 1.1rem;
+      }
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    Our mission is to capture the fleeting, often ambiguous beauty of the natural world — not for recognition or revenue, but because standing knee-deep in a bog whispering “I have important work” to a passing duck somehow feels more meaningful than sitting in front of a screen pretending to be a technological genius. - Founder of Vaydyn
+    Our mission is to capture the fleeting, often ambiguous beauty of the natural world — not for recognition or revenue, but because telling everyone “I have important work” feels somehow more meaningful than sitting in front of a screen pretending to be a technological genius.
+    <br><br>
+    – Founder
+  </div>
+
+  <div class="footer">
+    Rights to this website belong to tradersumukh@gmail.com - please contact the owner for further information.
   </div>
 </body>
 </html>
